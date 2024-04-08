@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvEmployeeNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Employee : "
+        android:layout_marginTop="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Buildings entered  "
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/tvBuildingEntered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" XX "
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Rooms Entered       "
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/tvRoomsEntered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" XX "
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/tvBuilding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Building1: "
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="95dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Time Spent "
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rooms Entered "
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp">
+            <TextView
+                android:id="@+id/tvTimeSpent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 1:05 "
+                />
+            <TextView
+                android:id="@+id/tvNumberofRooms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Room1, Room2 "
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
