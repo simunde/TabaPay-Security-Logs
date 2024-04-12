@@ -27,7 +27,7 @@ The TabaPay Security Logs App is designed to efficiently manage employee check-i
  **1.Clone this repository:**
 
 ```
-git clone https://github.com/yourgithub/tabapay-security-logs.git
+git clone https://github.com/simunde/tabapay-security-logs.git
 
 
  ```
