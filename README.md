@@ -14,7 +14,7 @@ The TabaPay Security Logs App is designed to efficiently manage employee check-i
 
 ## Screenshots
 
-<img src="images/entersites.png" alt="Screenshot 1" width="150"/> <img src="images/employeelist.png" alt="Screenshot 2" width="150"/> <img src="images/buildinglogs.png" alt="Screenshot 3" width="150"/>  
+<img src="images/entersites.png" alt="Screenshot 1" width="250"/> <img src="images/employeelist.png" alt="Screenshot 2" width="250"/> <img src="images/buildinglogs.png" alt="Screenshot 3" width="150"/>  
 
 
 ## Getting Started
